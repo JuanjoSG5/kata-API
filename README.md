@@ -92,5 +92,3 @@ Ir más lejos
 [saphirevert-shield]: https://badgen.net/badge/Github/SaphireVert/green?icon=https://svgshare.com/i/Srf.svg
 [saphirevert-url]: https://github.com/saphirevert/
 
-[Java](https://github.com/JuanjoSG5/kata-API/edit/JuanjoSG5/java)  → [JuanjoSG5](https://github.com/JuanjoSG5)
-
