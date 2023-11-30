@@ -1,6 +1,5 @@
 package com.example.demo.entities;
 
-import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,8 +20,8 @@ public class Style {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name = "style_name")
-    private String style_name;
-    private LocalDate last_mod;
+    private String styleName;
+    private LocalDate lastMod;
     @ManyToOne
     @JoinColumn(name="cat_id")
     @NotFound(action = NotFoundAction.IGNORE)

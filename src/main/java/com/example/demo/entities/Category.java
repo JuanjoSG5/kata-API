@@ -19,7 +19,7 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Corrected annotation
     private Long id;
     @Column(name = "cat_name")
-    private String cat_name;
+    private String catName;
 
-    private LocalDate last_mod;
+    private LocalDate lastMod;
 }

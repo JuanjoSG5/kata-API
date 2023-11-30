@@ -8,11 +8,19 @@ import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
+/**
+ * Component class for converting Brewery entities to ServiceBreweryDTO.
+ */
 @Component
 @RequiredArgsConstructor
 public class BreweryDTOConverter {
     private final ModelMapper modelMapper;
-
+    /**
+     * Converts a Brewery entity to a ServiceBreweryDTO.
+     *
+     * @param brewery Brewery entity to be converted.
+     * @return ServiceBreweryDTO representing the converted data.
+     */
     public ServiceBreweryDTO convertToDto(Breweries brewery) {
         return modelMapper.map(brewery, ServiceBreweryDTO.class);
     }
